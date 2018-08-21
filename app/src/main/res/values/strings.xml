@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name"
+        >BaiBoss</string>
+    <string name="login_input_username"
+        >Username</string>
+    <string name="login_input_error_pwd"
+        >Password is failure</string>
+    <string name="login_input_error_code"
+        >Verification Code error</string>
+    <string name="login_input_error_user"
+        >User is not exist</string>
+    <string name="login_input_password"
+        >Password</string>
+    <string name="login_input_code"
+        >Verification Code</string>
+    <string name="login_button">Login</string>
+    <!-- ################################## start  ##################################  -->
+    <string name="main_tab_item_home">首页</string>
+    <string name="main_tab_item_service">服务</string>
+    <string name="main_tab_item_bills">账单</string>
+    <string name="main_tab_item_mine">我的</string>
+    <string name="home_page_title">首页</string>
+    <string name="home_page_flow_detail_title">流量使用</string>
+    <string name="home_page_item_account_balance">账户余额</string>
+    <string name="home_page_item_tariff_program">资费方案</string>
+    <string name="home_page_item_traffic_usage">流量使用</string>
+    <string name="home_page_item_charge_record">充值记录</string>
+    <string name="mine_page_info_operator">"运  营  商 : %1$s"</string>
+    <string name="mine_page_info_usercode">"用户编码 : %1$s"</string>
+    <string name="mine_page_info_email">"邮        箱 : %1$s"</string>
+    <string name="mine_page_info_phonenumber">"移动电话 : %1$s"</string>
+    <string name="mine_page_info_postcode">"邮        编 : %1$s"</string>
+    <string name="mine_page_business_flow">账单流量</string>
+    <string name="mine_page_business_validaty">资费有效期 %1$s</string>
+    <string name="mine_page_business_account">账户信息</string>
+    <string name="mine_page_business_charge">充值</string>
+    <string name="mine_page_business_balance">余额(元)</string>
+    <string name="mine_page_business_deposit">押金(元)</string>
+    <string name="mine_page_setting">设置</string>
+    <string name="mine_page_feilv">费率(元)</string>
+    <string name="mine_page_flow_and_remain">总流量/结余流量(MB)</string>
+    <string name="charge_page_title">充值</string>
+    <string name="charge_page_chargeaccount">"充值账户 : "</string>
+    <string name="charge_page_paymethod">"支付方式 : "</string>
+    <string name="charge_page_cardnumber">"刮刮卡有效码 : "</string>
+    <string name="charge_result_page_title">充值结果</string>
+    <string name="charge_result_page_charge_success">充值成功</string>
+    <string name="charge_result_page_charge_failure">充值失败</string>
+    <string name="charge_result_page_charge_record">充值记录</string>
+    <string name="charge_result_page_charge_next">继续充值</string>
+    <string name="setting_page_title">设置</string>
+    <string name="setting_page_item_change_pwd">密码修改</string>
+    <string name="setting_page_item_about">关于</string>
+    <string name="setting_page_item_quit">退 出</string>
+    <string name="about_page_system_version">"系统版本 : %1$s"</string>
+    <string name="change_pwd_page_old">"旧密码"</string>
+    <string name="change_pwd_page_new">"新密码"</string>
+    <string name="change_pwd_page_confirm">"确认新密码"</string>
+    <string name="change_pwd_page_old_error">"旧密码错误"</string>
+    <string name="change_pwd_page_not_consistent">"两次输入密码不一致"</string>
+    <string name="change_pwd_page_reset">"重  置"</string>
+    <string name="change_pwd_page_save">"保  存"</string>
+    <string name="change_pwd_result_page_success">"密码修改成功"</string>
+    <string name="change_pwd_result_page_failure">"密码修改失败"</string>
+    <string name="change_pwd_result_page_title">"密码修改结果"</string>
+    <string name="change_pwd_result_page_countdownjump">"%1$ds后将自动跳转到登录界面"</string>
+    <string name="bill_page_title">"账单"</string>
+    <string name="bill_page_tab_invoice_record">"发票记录"</string>
+    <string name="bill_page_tab_charge_record">"充值记录"</string>
+    <string name="bill_page_list_header_invoice_number">"发票号码"</string>
+    <string name="bill_page_list_header_state_amount">"状态/金额"</string>
+    <string name="bill_page_list_header_create_time">"创建时间"</string>
+    <string name="bill_page_list_header_serial_number">"SN号码"</string>
+    <string name="bill_page_list_header_charge_amount">"充值金额"</string>
+    <string name="bill_page_list_header_charge_time">"充值时间"</string>
+    <string name="bill_page_list_child_invoice_num">"发票号码 : %1$s"</string>
+    <string name="bill_page_list_child_invoice_total">"票据总额 : %1$s"</string>
+    <string name="bill_page_list_child_paied_amount"
+        >"已付金额 : %1$s"</string>
+    <string name="bill_page_list_child_unpaied_amount">"未付金额 : %1$s"</string>
+    <string name="bill_page_list_child_service_start">"服务开始 : %1$s"</string>
+    <string name="bill_page_list_child_service_end">"服务到期 : %1$s"</string>
+    <string name="bill_page_list_child_invoice_type">"票据类型 : %1$s"</string>
+    <string name="service_page_title">服务</string>
+    <string name="service_page_user_flow">用户流量</string>
+    <string name="service_page_tariff_type">资费方案</string>
+    <string name="service_page_upload_speed"><Data>
+        <![CDATA[
+        <font color="#161618">上传速率 : </font><font color="#0099FF">%1$dMB</font>
+        ]]></Data>
+    </string>
+    <string name="service_page_download_speed">
+        <![CDATA[
+        <font color="#161618">下载速率 : </font><font color="#4CAF50">%1$dMB</font>
+        ]]>
+    </string>
+    <string name="service_page_upload_total">
+        <![CDATA[
+        <font color="#A8A8A8">上传总量</font><font color="#0099FF"><big><big>%1$.2f</big></big>GB</font>
+        ]]>
+    </string>
+    <string name="service_page_download_total">
+        <![CDATA[
+        <font color="#A8A8A8">下载总量</font><font color="#4CAF50"><big><big>%1$.2f</big></big>GB</font>
+        ]]>
+    </string>
+
+    <string name="tariff_program_active">激活</string>
+    <string name="tariff_result_title">更改资费方案</string>
+    <string name="tariff_result_success">资费方案修改成功</string>
+    <string name="tariff_result_failure">资费方案修改失败</string>
+    <string name="tariff_result_prompt">方案于下月初生效，如有疑问请致电XXX-XXXXXX</string>
+
+    <!--<string-array name="user_flow">-->
+        <!--<item>Day</item>-->
+        <!--<item>Week</item>-->
+        <!--<item>Month</item>-->
+        <!--<item>Year</item>-->
+    <!--</string-array>-->
+    <!-- ################################## end   ##################################  -->
+</resources>

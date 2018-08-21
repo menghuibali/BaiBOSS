@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:paddingBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="25dp"
+                android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF161618"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#FF161618"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/discription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FF161618"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/active"
+        android:layout_width="79dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/tariff_program_active_bg"
+        android:gravity="center"
+        android:text="@string/tariff_program_active"
+        android:textColor="@color/tariff_program_active"
+        android:textSize="12sp"/>
+</RelativeLayout>

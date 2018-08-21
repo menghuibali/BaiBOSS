@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/sn"
+        style="@style/bill_page_list_header"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:textColor="#FF161618"/>
+
+    <TextView
+        android:id="@+id/amount"
+        style="@style/bill_page_list_header"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="168dp"
+        android:textColor="#FF31ABFD"/>
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/bill_page_list_header"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="34dp"
+        android:textColor="#FF161618"/>
+
+</RelativeLayout>

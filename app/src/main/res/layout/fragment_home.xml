@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/home_page_title"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@android:color/white"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/home_page_flow_detail_title"
+            android:textColor="@color/home_page_flow_detail_title"
+            android:textSize="14sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.baicells.baiboss.ui.widget.ExtraWaveView
+                android:layout_width="177dp"
+                android:layout_height="177dp"
+                android:layout_centerHorizontal="true"/>
+
+            <com.baicells.baiboss.ui.widget.WaveView
+                android:id="@+id/waveview"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                app:padding_color="@color/padding_color"
+                app:wave_color="@color/wave_color"
+                app:wave_high="@dimen/wave_high"
+                app:wave_padding="@dimen/wave_padding"
+                app:wave_text_color="@android:color/white"
+                app:wave_text_size="@dimen/wave_text_size"
+                app:wave_width="@dimen/wave_width"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/validity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/home_page_flow_validity"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/itemone"
+                style="@style/home_page_item_layout">
+
+                <ImageView
+                    style="@style/home_page_item_imageview"
+                    android:src="@drawable/home_page_account_balance"/>
+
+                <TextView
+                    style="@style/home_page_item_text"
+                    android:text="@string/home_page_item_account_balance"
+                    />
+
+                <TextView
+                    android:id="@+id/account_balance"
+                    style="@style/home_page_item_text"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/itemtwo"
+                style="@style/home_page_item_layout"
+                android:layout_marginLeft="15dp">
+
+                <ImageView
+                    style="@style/home_page_item_imageview"
+                    android:src="@drawable/home_page_tariff_program"/>
+
+                <TextView
+                    style="@style/home_page_item_text"
+                    android:text="@string/home_page_item_tariff_program"
+                    />
+
+                <TextView
+                    android:id="@+id/tariff_program"
+                    style="@style/home_page_item_text"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/itemthree"
+                style="@style/home_page_item_layout">
+
+                <ImageView
+                    style="@style/home_page_item_imageview"
+                    android:src="@drawable/home_page_traffic_usage"/>
+
+                <TextView
+                    style="@style/home_page_item_text"
+                    android:text="@string/home_page_item_traffic_usage"
+                    />
+
+                <TextView
+                    android:id="@+id/traffic_usage"
+                    style="@style/home_page_item_text"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/itemfour"
+                style="@style/home_page_item_layout"
+                android:layout_marginLeft="15dp">
+
+                <ImageView
+                    style="@style/home_page_item_imageview"
+                    android:src="@drawable/home_page_charge_record"/>
+
+                <TextView
+                    style="@style/home_page_item_text"
+                    android:text="@string/home_page_item_charge_record"
+                    />
+
+                <TextView
+                    android:id="@+id/charge_record"
+                    style="@style/home_page_item_text"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

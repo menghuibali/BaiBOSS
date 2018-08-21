@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShadowSubmitView">
+        <attr name="normal_color" format="color|reference"></attr>
+        <attr name="shadow_color" format="color|reference"></attr>
+        <attr name="disable_color" format="color|reference"></attr>
+        <attr name="text_color" format="color|reference"></attr>
+        <attr name="shadow_radus" format="dimension"></attr>
+        <attr name="shadow_X" format="dimension"></attr>
+        <attr name="shadow_Y" format="dimension"></attr>
+        <attr name="text_size" format="dimension"></attr>
+        <attr name="left_padding" format="dimension"></attr>
+        <attr name="top_padding" format="dimension"></attr>
+        <attr name="right_padding" format="dimension"></attr>
+        <attr name="bottom_padding" format="dimension"></attr>
+        <attr name="text" format="string"></attr>
+        <attr name="enable" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="WaveView">
+        <attr name="wave_bg" format="reference"></attr>
+        <attr name="wave_text_color" format="color|reference"></attr>
+        <attr name="wave_text_size" format="dimension"></attr>
+        <attr name="wave_width" format="dimension"></attr>
+        <attr name="wave_high" format="dimension"></attr>
+        <attr name="wave_padding" format="dimension"></attr>
+        <attr name="wave_color" format="color|reference"></attr>
+        <attr name="padding_color" format="color|reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CursorView">
+        <attr name="current_bg_color" format="color|reference"></attr>
+        <attr name="current_text_color" format="color|reference"></attr>
+        <attr name="incurrent_text_color" format="color|reference"></attr>
+        <attr name="textsize" format="dimension"></attr>
+        <attr name="stroke_width" format="dimension"></attr>
+        <attr name="stroke_color" format="color|reference"></attr>
+    </declare-styleable>
+</resources>

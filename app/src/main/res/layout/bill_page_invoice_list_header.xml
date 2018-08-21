@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="36dp"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <TextView
+        style="@style/bill_page_list_header"
+        android:layout_marginLeft="30dp"
+        android:text="@string/bill_page_list_header_invoice_number"/>
+
+    <TextView
+        style="@style/bill_page_list_header"
+        android:layout_marginLeft="40dp"
+        android:text="@string/bill_page_list_header_state_amount"/>
+
+    <TextView
+        style="@style/bill_page_list_header"
+        android:layout_marginLeft="50dp"
+        android:text="@string/bill_page_list_header_create_time"/>
+
+</LinearLayout>

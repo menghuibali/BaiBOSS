@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="160dp"
+              android:orientation="vertical"
+              android:paddingLeft="38dp">
+
+    <TextView
+        android:id="@+id/invoicenumber"
+        style="@style/bill_page_list_header"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/invoiceamount"
+        style="@style/bill_page_list_header"/>
+
+    <TextView
+        android:id="@+id/payamount"
+        style="@style/bill_page_list_header"/>
+
+    <TextView
+        android:id="@+id/unpayamount"
+        style="@style/bill_page_list_header"/>
+
+    <TextView
+        android:id="@+id/servicestart"
+        style="@style/bill_page_list_header"/>
+
+    <TextView
+        android:id="@+id/serviceend"
+        style="@style/bill_page_list_header"/>
+
+    <TextView
+        android:id="@+id/invoicetype"
+        style="@style/bill_page_list_header"/>
+</LinearLayout>
