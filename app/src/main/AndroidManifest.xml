@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.baicells.baiboss">
+    package="com.baicells.baiboss">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--umeng push 权限必须的-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--umeng push 权限必须的-->
+
 
     <application
         android:name=".app.App"
@@ -14,16 +22,20 @@
 
         <meta-data
             android:name="android.max_aspect"
-            android:value="2.1"/>
-
+            android:value="2.1" />
+        <!-- umeng推送需要配置的 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5b87c52eb27b0a26a00000fa" />
+        <!-- umeng推送需要配置的 -->
         <activity
             android:name=".ui.activity.LoginActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/scrollview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scrollbars="none">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="106dp"
-            android:src="@drawable/icon_logo"/>
+            android:src="@drawable/icon_logo" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/textinput"
@@ -33,8 +34,9 @@
                 android:id="@+id/username"
                 style="@style/login_edittext"
                 android:drawableLeft="@drawable/icon_login_name"
+                android:drawableStart="@drawable/icon_login_name"
                 android:hint="@string/login_input_username"
-                android:inputType="textVisiblePassword"/>
+                android:inputType="textVisiblePassword" />
         </android.support.design.widget.TextInputLayout>
 
         <LinearLayout
@@ -52,12 +54,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/login_input_error_user"
-                android:textColor="@color/login_input_error"/>
+                android:textColor="@color/login_input_error" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/icon_input_error"/>
+                android:src="@drawable/icon_input_error" />
         </LinearLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -67,14 +69,16 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="20dp"
             android:textColorHint="@color/login_text_color_hint"
+            app:passwordToggleEnabled="true"
             app:passwordToggleDrawable="@drawable/password_input_toggle">
 
             <EditText
                 android:id="@+id/password"
                 style="@style/login_edittext"
                 android:drawableLeft="@drawable/icon_login_pwd"
+                android:drawableStart="@drawable/icon_login_pwd"
                 android:hint="@string/login_input_password"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword" />
         </android.support.design.widget.TextInputLayout>
 
         <LinearLayout
@@ -92,12 +96,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/login_input_error_pwd"
-                android:textColor="@color/login_input_error"/>
+                android:textColor="@color/login_input_error" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/icon_input_error"/>
+                android:src="@drawable/icon_input_error" />
         </LinearLayout>
 
         <LinearLayout
@@ -121,6 +125,7 @@
                     android:background="@drawable/login_edittext_bg"
                     android:drawableLeft="@drawable/icon_code"
                     android:drawablePadding="30dp"
+                    android:drawableStart="@drawable/icon_code"
                     android:hint="@string/login_input_code"
                     android:inputType="textVisiblePassword"
                     android:maxLength="4"
@@ -128,14 +133,14 @@
                     android:textColor="@color/login_text_color"
                     android:textColorHint="@color/login_text_color_hint"
                     android:textCursorDrawable="@drawable/login_focus"
-                    android:textSize="14sp"/>
+                    android:textSize="14sp" />
             </android.support.design.widget.TextInputLayout>
 
             <ImageView
                 android:id="@+id/iv_code"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="16dp"/>
+                android:layout_marginLeft="16dp" />
 
         </LinearLayout>
 
@@ -154,12 +159,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/login_input_error_code"
-                android:textColor="@color/login_input_error"/>
+                android:textColor="@color/login_input_error" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/icon_input_error"/>
+                android:src="@drawable/icon_input_error" />
         </LinearLayout>
 
         <FrameLayout
@@ -186,12 +191,12 @@
                 app:text="@string/login_button"
                 app:text_color="@android:color/white"
                 app:text_size="16sp"
-                app:top_padding="7dp"/>
+                app:top_padding="7dp" />
         </FrameLayout>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="8dp"/>
+            android:layout_height="8dp" />
 
     </LinearLayout>
 </ScrollView>

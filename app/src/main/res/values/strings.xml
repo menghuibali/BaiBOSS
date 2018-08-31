@@ -1,18 +1,11 @@
 <resources>
-    <string name="app_name"
-        >BaiBoss</string>
-    <string name="login_input_username"
-        >Username</string>
-    <string name="login_input_error_pwd"
-        >Password is failure</string>
-    <string name="login_input_error_code"
-        >Verification Code error</string>
-    <string name="login_input_error_user"
-        >User is not exist</string>
-    <string name="login_input_password"
-        >Password</string>
-    <string name="login_input_code"
-        >Verification Code</string>
+    <string name="app_name">BaiBoss</string>
+    <string name="login_input_username">Username</string>
+    <string name="login_input_error_pwd">Password is failure</string>
+    <string name="login_input_error_code">Verification Code error</string>
+    <string name="login_input_error_user">User is not exist</string>
+    <string name="login_input_password">Password</string>
+    <string name="login_input_code">Verification Code</string>
     <string name="login_button">Login</string>
     <!-- ################################## start  ##################################  -->
     <string name="main_tab_item_home">首页</string>
@@ -111,11 +104,11 @@
     <string name="tariff_result_failure">资费方案修改失败</string>
     <string name="tariff_result_prompt">方案于下月初生效，如有疑问请致电XXX-XXXXXX</string>
 
-    <!--<string-array name="user_flow">-->
-        <!--<item>Day</item>-->
-        <!--<item>Week</item>-->
-        <!--<item>Month</item>-->
-        <!--<item>Year</item>-->
-    <!--</string-array>-->
+    <string-array name="user_flow">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
     <!-- ################################## end   ##################################  -->
 </resources>
