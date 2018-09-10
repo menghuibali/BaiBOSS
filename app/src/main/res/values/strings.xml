@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">BaiBoss</string>
-    <string name="login_input_username">Username</string>
+    <string name="login_input_username">Imsi</string>
     <string name="login_input_error_pwd">Password is failure</string>
     <string name="login_input_error_code">Verification Code error</string>
     <string name="login_input_error_user">User is not exist</string>
@@ -110,5 +110,18 @@
         <item>Month</item>
         <item>Year</item>
     </string-array>
+
+    <string name="prompt_no_network">当前无网络，请检查网络连接</string>
+    <string name="prompt_password_new_and_old_cant_same">新密码不能与旧密码相同</string>
+    <string name="prompt_password_not_consistent">两次输入的密码不一致</string>
+    <string name="dialog_title_update_password">修改密码</string>
+    <string name="dialog_content_update_password">正在发送请求，请稍后</string>
+    <string name="prompt_login_failure">登录失败</string>
+    <string name="dialog_title_login">登录</string>
+    <string name="dialog_content_login">正在登录，请稍后</string>
+    <string name="dialog_content_quit">"Are you sure to exit?"</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_content_active">"Are you sure to active?"</string>
     <!-- ################################## end   ##################################  -->
 </resources>
