@@ -15,8 +15,8 @@
     <color name="login_text_color_hint_float">#FFE9E0E0</color>
     <color name="login_text_color">#DE1D3443</color>
     <color name="login_hint">#FF1DA3FC</color>
-    <color name="wave_color">#AE49BBE2</color>
-    <color name="padding_color">#453EE8FD</color>
+    <color name="wave_color">#ae039CD9</color>
+    <color name="padding_color">#ffCEFAFE</color>
     <color name="main_tab_text_selected">#FF1DA3FC</color>
     <color name="main_tab_text_normal">#FF5A7B92</color>
     <color name="home_page_flow_detail_title">#FF1DA3FC</color>

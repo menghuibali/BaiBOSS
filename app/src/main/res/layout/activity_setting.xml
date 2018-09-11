@@ -33,11 +33,38 @@
             android:src="@drawable/icon_right"/>
     </RelativeLayout>
 
+
+    <RelativeLayout
+        android:id="@+id/configuration"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/changepassword"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/setting_page_item_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:text="@string/setting_page_item_config"
+            android:textColor="#FF161618"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/icon_right"/>
+    </RelativeLayout>
+
     <RelativeLayout
         android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@id/changepassword"
+        android:layout_below="@id/configuration"
         android:layout_marginTop="15dp"
         android:background="@drawable/setting_page_item_bg">
 

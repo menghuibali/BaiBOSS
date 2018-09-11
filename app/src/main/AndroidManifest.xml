@@ -63,6 +63,9 @@
             android:name=".ui.activity.ChangePwdResultActivity"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name=".ui.activity.ConfigurationActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".ui.activity.AboutActivity"
             android:screenOrientation="portrait"></activity>
         <activity

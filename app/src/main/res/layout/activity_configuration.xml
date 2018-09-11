@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f7fa"
+    android:orientation="vertical">
+
+    <include layout="@layout/fragment_title_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/configuration_item_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/config_flow_promt"
+            android:textColor="#141416"
+            android:textSize="14sp" />
+
+        <Switch
+            android:id="@+id/flow_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:checked="false"
+            android:showText="false"
+            android:switchMinWidth="57dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/switch_thumb"
+            android:thumbTextPadding="0dp"
+            android:track="@drawable/switch_track" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/flow_tip"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/config_flow_tip"
+            android:textColor="#8e8e8e"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/configuration_item_bg"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/cur_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="0G"
+                android:textColor="#141416"
+                android:textSize="12sp" />
+
+            <SeekBar
+                android:id="@+id/flow_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cur_flow"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:max="100"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <TextView
+                android:id="@+id/min_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="17dp"
+                android:text="0G"
+                android:textColor="#141416"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/max_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="17dp"
+                android:text="100G"
+                android:textColor="#141416"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/configuration_item_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/config_time_promt"
+            android:textColor="#141416"
+            android:textSize="14sp" />
+
+        <Switch
+            android:id="@+id/time_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:checked="false"
+            android:showText="false"
+            android:switchMinWidth="57dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/switch_thumb"
+            android:thumbTextPadding="0dp"
+            android:track="@drawable/switch_track" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time_tip"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/config_flow_tip"
+            android:textColor="#8e8e8e"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/configuration_item_bg">
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/configuration_item_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/config_service_promt"
+            android:textColor="#141416"
+            android:textSize="14sp" />
+
+        <Switch
+            android:id="@+id/service_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:checked="false"
+            android:showText="false"
+            android:switchMinWidth="57dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/switch_thumb"
+            android:thumbTextPadding="0dp"
+            android:track="@drawable/switch_track" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/confige_save_button_bg"
+        android:text="@string/config_button_save"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
