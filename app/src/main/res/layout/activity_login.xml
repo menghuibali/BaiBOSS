@@ -36,7 +36,7 @@
                 android:drawableStart="@drawable/icon_login_name"
                 android:hint="@string/login_input_username"
                 android:inputType="textVisiblePassword"
-                android:text="530100000010753"
+                android:text="600000000002767"
                 android:paddingBottom="12dp" />
         </android.support.design.widget.TextInputLayout>
 
@@ -79,7 +79,7 @@
                 android:drawableLeft="@drawable/icon_login_pwd"
                 android:drawableStart="@drawable/icon_login_pwd"
                 android:hint="@string/login_input_password"
-                android:text="abc123"
+                android:text="000000"
                 android:inputType="textPassword" />
         </android.support.design.widget.TextInputLayout>
 

@@ -74,7 +74,7 @@
     <string name="bill_page_list_child_service_start">"服务开始 : %1$s"</string>
     <string name="bill_page_list_child_service_end">"服务到期 : %1$s"</string>
     <string name="bill_page_list_child_invoice_type">"票据类型 : %1$s"</string>
-    <string name="service_page_title">服务</string>
+    <string name="service_page_title">资费方案</string>
     <string name="service_page_user_flow">用户流量</string>
     <string name="service_page_tariff_type">资费方案</string>
     <string name="service_page_upload_speed"><Data>
@@ -135,17 +135,26 @@
 
     <string name="main_fragment_all_flow"><Data>
         <![CDATA[
-        <font color="#1DA3FC"><big><big>%1$d</big></big></font><font color="#1DA3FC">%2$s</font>
+        <font color="#1DA3FC"><big><big>%1$s</big></big></font><font color="#1DA3FC">%2$s</font>
         ]]></Data>
     </string>
 
     <string name="main_fragment_balance_time"><Data>
         <![CDATA[
-        <font color="#1DA3FC"><big><big>%1$d</big></big></font><font color="#1DA3FC">%2$s</font>
+        <font color="#1DA3FC"><big><big>%1$s</big></big></font><font color="#1DA3FC">%2$s</font>
+        ]]></Data>
+    </string>
+
+    <string name="service_plan_fragment_account"><Data>
+        <![CDATA[
+        <font color="#FFFFFF">%1$s</font><br><font color="#FFFFFF"><big><big>%2$s</big></big></font><font color="#FFFFFF">%3$s</font>
         ]]></Data>
     </string>
 
     <string name="wave_view_text_balance">剩余</string>
     <string name="wave_view_text_balance_flow">剩余流量</string>
+    <string name="service_plan">Service Plan</string>
+    <string name="service_end">服务截止日期</string>
+    <string name="flow_statistics">流量统计</string>
     <!-- ################################## end   ##################################  -->
 </resources>

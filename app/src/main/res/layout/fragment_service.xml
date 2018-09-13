@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/title"
@@ -12,183 +11,182 @@
         android:background="@color/colorPrimary"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="18sp"/>
+        android:textSize="18sp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="344dp"
-        android:background="@drawable/tariff_result_bg">
-
-        <TextView
-            android:id="@+id/userflow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:text="@string/service_page_user_flow"
-            android:textColor="#FF1DA3FC"
-            android:textSize="14sp"/>
+        android:layout_height="match_parent"
+        android:background="#fff5f7fa">
 
         <RelativeLayout
-            android:id="@+id/userinfo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/userflow"
-            android:layout_marginTop="11dp">
+            android:id="@+id/plan_layout"
+            android:layout_width="180dp"
+            android:layout_height="225dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/service_plan_fragment_bg">
 
             <TextView
-                android:id="@+id/username"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:textColor="#FF093663"
-                android:textSize="18sp"/>
+                android:id="@+id/service_plan_account"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/mine_page_feilv_bg"
+                android:gravity="center" />
 
-            <TextView
-                android:id="@+id/account"
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/service_plan"
+            android:layout_width="163dp"
+            android:layout_height="104dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/service_plan_fragment_bg">
+
+            <ImageView
+                android:id="@+id/service_plan_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
-                android:layout_toRightOf="@id/username"
-                android:textColor="#FF141416"
-                android:textSize="12sp"/>
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/service_plan_fragment_service_plan" />
+
+            <TextView
+                android:id="@+id/service_plan_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/service_plan_icon"
+                android:text="@string/service_plan"
+                android:textColor="#141416"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/service_plan_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/service_plan_title"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/service_plan_icon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#8E8E8E"
+                android:textSize="12sp" />
+
         </RelativeLayout>
 
-        <com.baicells.baiboss.ui.widget.CursorView
-            android:id="@+id/cursorview"
-            android:layout_width="match_parent"
-            android:layout_height="24dp"
-            android:layout_below="@id/userinfo"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="30dp"
-            app:current_bg_color="#FF1DA3FC"
-            app:current_text_color="@android:color/white"
-            app:incurrent_text_color="#DEA1BEE0"
-            app:stroke_color="#BED9FF"
-            app:stroke_width="1dp"
-            app:textsize="14sp"/>
-
-
-        <LinearLayout
-            android:id="@+id/uploadlayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/cursorview"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp">
+        <RelativeLayout
+            android:layout_width="163dp"
+            android:layout_height="104dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/service_plan"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/service_plan_fragment_bg">
 
             <ImageView
+                android:id="@+id/service_end_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:layout_marginBottom="5dp"
-                android:src="@drawable/service_page_upload_total"/>
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/service_plan_fragment_service_end" />
 
             <TextView
-                android:id="@+id/uploadtotal"
+                android:id="@+id/service_end_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"/>
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@id/uploadlayout"
-            android:layout_marginRight="16dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:layout_marginBottom="5dp"
-                android:src="@drawable/service_page_download_total"/>
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/service_end_icon"
+                android:text="@string/service_end"
+                android:textColor="#141416"
+                android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/downloadtotal"
+                android:id="@+id/service_end_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"/>
-        </LinearLayout>
+                android:layout_below="@id/service_end_title"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/service_end_icon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#8E8E8E"
+                android:textSize="12sp" />
+        </RelativeLayout>
 
-
-        <lecho.lib.hellocharts.view.LineChartView
-            android:id="@+id/chartview"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentBottom="true"
-            android:layout_below="@id/uploadlayout"
-            android:layout_marginTop="12dp"
-            android:padding="8dp"/>
+            android:layout_height="230dp"
+            android:layout_below="@id/plan_layout"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/service_plan_fragment_bg">
 
-    </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/flow_statistics"
+                android:textColor="#5A7B92"
+                android:textSize="15sp" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="136dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/tariff_result_bg">
+            <TextView
+                android:id="@+id/balance_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="23dp"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/service_plan_fragment_balance_flow"
+                android:drawablePadding="8dp"
+                android:textColor="#141416"
+                android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/tarifftype"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:text="@string/service_page_tariff_type"
-            android:textColor="#FF1DA3FC"
-            android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/all_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/balance_flow"
+                android:layout_marginBottom="22dp"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/service_plan_fragment_all_flow"
+                android:drawablePadding="8dp"
+                android:textColor="#141416"
+                android:textSize="14sp" />
 
-        <ImageView
-            android:id="@+id/refresh"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/tariff_setting"/>
+            <com.baicells.baiboss.ui.widget.FlowStatisticsView
+                android:id="@+id/statistics"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="66dp"
+                android:layout_marginTop="34dp" />
 
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="18dp"
-            android:layout_marginLeft="15dp"
-            android:src="@drawable/service_page_tariff_program"/>
+            <TextView
+                android:id="@+id/percent_used"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="66dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#141416"
+                android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/flowtype"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@id/logo"
-            android:layout_marginLeft="15dp"
-            android:layout_toRightOf="@id/logo"
-            android:text="@string/app_name"
-            android:textColor="#FF161618"
-            android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/percent_unused"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="174dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#141416"
+                android:textSize="12sp" />
+        </RelativeLayout>
 
-        <TextView
-            android:id="@+id/uploadspeed"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/flowtype"
-            android:layout_below="@id/flowtype"
-            android:layout_marginTop="8dp"
-            android:textSize="12sp"/>
-
-        <TextView
-            android:id="@+id/downloadspeed"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/uploadspeed"
-            android:layout_below="@id/uploadspeed"
-            android:layout_marginTop="8dp"
-            android:textSize="12sp"/>
     </RelativeLayout>
 </LinearLayout>
