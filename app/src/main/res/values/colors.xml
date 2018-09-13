@@ -26,6 +26,8 @@
     <color name="mine_page_info_textview">#FFF4F4F4</color>
     <color name="mine_page_info_detail_textview">#FFFFFFFF</color>
     <color name="charge_page_detail_title_textview">#FF141416</color>
+    <color name="bill_page_status_enable">#4CAF50</color>
+    <color name="bill_page_status_disable">#D50000</color>
     <color name="bill_page_tab_text_select">#DE148BE6</color>
     <color name="bill_page_tab_text_unselect">#DEA8CEE6</color>
     <color name="bill_page_list_header">#FF8E8E8E</color>

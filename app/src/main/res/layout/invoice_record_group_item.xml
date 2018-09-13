@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="40dp"
     android:layout_marginLeft="8dp"
@@ -15,7 +15,7 @@
         android:drawableLeft="@drawable/bill_page_invoice_number"
         android:drawablePadding="4dp"
         android:textColor="#FF161618"
-        android:textSize="12sp"/>
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/statusamount"
@@ -24,9 +24,10 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="120dp"
         android:drawableLeft="@drawable/bill_page_status_amount"
+        android:textColor="@color/bill_page_status_selector"
         android:drawablePadding="4dp"
         android:enabled="true"
-        android:textSize="12sp"/>
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/createtime"
@@ -35,7 +36,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="214dp"
         android:textColor="#FF161618"
-        android:textSize="12sp"/>
+        android:textSize="12sp" />
 
     <ImageView
         android:id="@+id/indicator"
@@ -43,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:visibility="gone"
         android:layout_marginRight="16dp"
-        android:src="@drawable/service_page_expand"/>
+        android:src="@drawable/service_page_expand"
+        android:visibility="gone" />
 </RelativeLayout>

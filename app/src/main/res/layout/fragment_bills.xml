@@ -14,13 +14,16 @@
         android:textColor="@android:color/white"
         android:textSize="18sp" />
 
+    <include layout="@layout/bill_page_invoice_list_header" />
+
     <com.handmark.pulltorefresh.library.PullToRefreshListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@null"
         android:listSelector="@android:color/transparent"
-        app:ptrAnimationStyle="rotate"
+        app:ptrAnimationStyle="flip"
+        app:ptrDrawableStart="@drawable/service_page_download_total"
         app:ptrMode="both" />
 
 </LinearLayout>

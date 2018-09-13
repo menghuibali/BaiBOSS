@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">BaiBoss</string>
-    <string name="login_input_username">Imsi</string>
+    <string name="login_input_username">(User)IMSI</string>
     <string name="login_input_error_pwd">Password is failure</string>
     <string name="login_input_error_code">Verification Code error</string>
     <string name="login_input_error_user">User is not exist</string>
@@ -8,11 +8,11 @@
     <string name="login_input_code">Verification Code</string>
     <string name="login_button">Login</string>
     <!-- ################################## start  ##################################  -->
-    <string name="main_tab_item_home">首页</string>
-    <string name="main_tab_item_service">资费方案</string>
-    <string name="main_tab_item_bills">账单</string>
-    <string name="main_tab_item_mine">我的</string>
-    <string name="home_page_title">首页</string>
+    <string name="main_tab_item_home">Home</string>
+    <string name="main_tab_item_service">Service Plan</string>
+    <string name="main_tab_item_bills">Invoice</string>
+    <string name="main_tab_item_mine">Me</string>
+    <string name="home_page_title">Home</string>
     <string name="home_page_flow_detail_title">流量使用</string>
     <string name="home_page_item_account_balance">账户余额</string>
     <string name="home_page_item_tariff_program">资费方案</string>
@@ -58,12 +58,12 @@
     <string name="change_pwd_result_page_failure">"密码修改失败"</string>
     <string name="change_pwd_result_page_title">"密码修改结果"</string>
     <string name="change_pwd_result_page_countdownjump">"%1$ds后将自动跳转到登录界面"</string>
-    <string name="bill_page_title">"账单"</string>
+    <string name="bill_page_title">"Invoice"</string>
     <string name="bill_page_tab_invoice_record">"发票记录"</string>
     <string name="bill_page_tab_charge_record">"充值记录"</string>
-    <string name="bill_page_list_header_invoice_number">"发票号码"</string>
-    <string name="bill_page_list_header_state_amount">"状态/金额"</string>
-    <string name="bill_page_list_header_create_time">"创建时间"</string>
+    <string name="bill_page_list_header_invoice_number">"Invoice Number"</string>
+    <string name="bill_page_list_header_state_amount">"Status"</string>
+    <string name="bill_page_list_header_create_time">"Create Date"</string>
     <string name="bill_page_list_header_serial_number">"SN号码"</string>
     <string name="bill_page_list_header_charge_amount">"充值金额"</string>
     <string name="bill_page_list_header_charge_time">"充值时间"</string>
@@ -74,7 +74,8 @@
     <string name="bill_page_list_child_service_start">"服务开始 : %1$s"</string>
     <string name="bill_page_list_child_service_end">"服务到期 : %1$s"</string>
     <string name="bill_page_list_child_invoice_type">"票据类型 : %1$s"</string>
-    <string name="service_page_title">资费方案</string>
+    <string name="service_page_title">Service Plan</string>
+    <string name="service_page_service">Price</string>
     <string name="service_page_user_flow">用户流量</string>
     <string name="service_page_tariff_type">资费方案</string>
     <string name="service_page_upload_speed"><Data>
@@ -129,9 +130,9 @@
     <string name="config_flow_tip">拖动滑块设置</string>
     <string name="config_button_save">保存</string>
     <string name="out_of_service">已停机</string>
-    <string name="all_flow">总流量</string>
-    <string name="balance_time">剩余天数</string>
-    <string name="account">账户余额</string>
+    <string name="all_flow">"Total Flow"</string>
+    <string name="balance_time">"Balance Days"</string>
+    <string name="account">"Balance"</string>
 
     <string name="main_fragment_all_flow"><Data>
         <![CDATA[
@@ -151,10 +152,15 @@
         ]]></Data>
     </string>
 
-    <string name="wave_view_text_balance">剩余</string>
-    <string name="wave_view_text_balance_flow">剩余流量</string>
+    <string name="wave_view_text_balance">"Residue"</string>
+    <string name="wave_view_text_balance_flow">"Balance Flow"</string>
+    <string name="wave_view_text_unlimit">Unlimit</string>
     <string name="service_plan">Service Plan</string>
-    <string name="service_end">服务截止日期</string>
-    <string name="flow_statistics">流量统计</string>
+    <string name="service_end">Expiry Date</string>
+    <string name="flow_statistics">Flow Usage</string>
+    <string name="expiry_date">"Expiry Date %1$s"</string>
+    <string name="day">"Day"</string>
+    <string name="service_fragment_total_flow">"Total Flow %1$s"</string>
+    <string name="service_fragment_unuse_flow">"Balance Flow %1$s"</string>
     <!-- ################################## end   ##################################  -->
 </resources>
