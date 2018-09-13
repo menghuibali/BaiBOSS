@@ -97,11 +97,25 @@
                 android:layout_width="106dp"
                 android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/all_flow"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:id="@+id/all_flow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1DA3FC"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/flow_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1DA3FC"
+                        android:textSize="10sp" />
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -123,11 +137,26 @@
                 android:layout_width="98dp"
                 android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/balance_time"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:id="@+id/balance_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1DA3FC"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/time_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1DA3FC"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
 
                 <TextView
                     android:layout_width="wrap_content"

@@ -27,9 +27,6 @@
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="5b87c52eb27b0a26a00000fa" />
-        <meta-data
-            android:name="UMENG_CHANNEL"
-            android:value="${UMENG_CHANNEL_VALUE}" />
         <!-- umeng推送需要配置的 -->
         <activity
             android:name=".ui.activity.LoginActivity"
@@ -63,7 +60,7 @@
             android:name=".ui.activity.ChangePwdResultActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".ui.activity.ConfigurationActivity"
+            android:name=".ui.activity.ConfigActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".ui.activity.AboutActivity"
