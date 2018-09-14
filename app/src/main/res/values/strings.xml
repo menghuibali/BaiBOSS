@@ -41,11 +41,11 @@
     <string name="charge_result_page_charge_failure">充值失败</string>
     <string name="charge_result_page_charge_record">充值记录</string>
     <string name="charge_result_page_charge_next">继续充值</string>
-    <string name="setting_page_title">设置</string>
-    <string name="setting_page_item_change_pwd">密码修改</string>
-    <string name="setting_page_item_config">设置</string>
-    <string name="setting_page_item_about">关于</string>
-    <string name="setting_page_item_quit">退 出</string>
+    <string name="setting_page_title">Settings</string>
+    <string name="setting_page_item_change_pwd">Password</string>
+    <string name="setting_page_item_config">Settings</string>
+    <string name="setting_page_item_about">About</string>
+    <string name="setting_page_item_quit">Log Out</string>
     <string name="about_page_system_version">"系统版本 : %1$s"</string>
     <string name="change_pwd_page_old">"旧密码"</string>
     <string name="change_pwd_page_new">"新密码"</string>
@@ -117,7 +117,7 @@
     <string name="prompt_password_not_consistent">两次输入的密码不一致</string>
     <string name="dialog_title_update_password">修改密码</string>
     <string name="dialog_content_update_password">正在发送请求，请稍后</string>
-    <string name="prompt_login_failure">登录失败</string>
+    <string name="prompt_login_failure">Network Error</string>
     <string name="dialog_title_login">登录</string>
     <string name="dialog_content_login">正在登录，请稍后</string>
     <string name="dialog_content_quit">"Are you sure to exit?"</string>
@@ -162,5 +162,13 @@
     <string name="day">"Day"</string>
     <string name="service_fragment_total_flow">"Total Flow %1$s"</string>
     <string name="service_fragment_unuse_flow">"Balance Flow %1$s"</string>
+    <string name="network_error">"Network Error"</string>
+    <string name="pulltorefresh_end_text">"------我是有底线的------"</string>
+    <string name="pulltorefresh_down_to_refresh">"下拉刷新"</string>
+    <string name="pulltorefresh_release_to_refresh">"松开刷新"</string>
+    <string name="pulltorefresh_up_to_more">"上拉加载更多"</string>
+    <string name="pulltorefresh_release_to_more">"松开加载更多"</string>
+    <string name="pulltorefresh_downloading">"正在加载"</string>
+    <string name="no_data">"No Datas"</string>
     <!-- ################################## end   ##################################  -->
 </resources>
