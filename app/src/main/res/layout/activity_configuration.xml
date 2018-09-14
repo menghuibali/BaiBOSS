@@ -237,7 +237,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="36dp"
-        android:background="@drawable/confige_save_button_bg"
+        android:background="@drawable/setting_page_quit_bg"
         android:text="@string/config_button_save"
         android:textColor="@android:color/white"
         android:textSize="14sp" />

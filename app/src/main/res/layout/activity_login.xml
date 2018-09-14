@@ -175,7 +175,7 @@
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/confige_save_button_bg"
+            android:background="@drawable/setting_page_quit_bg"
             android:text="@string/login_button"
             android:textColor="@android:color/white"
             android:textSize="14sp" />
