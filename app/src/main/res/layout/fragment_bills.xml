@@ -26,4 +26,6 @@
         app:ptrDrawableStart="@drawable/service_page_download_total"
         app:ptrMode="both" />
 
+    <include layout="@layout/list_empty_view" />
+
 </LinearLayout>

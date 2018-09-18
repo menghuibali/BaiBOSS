@@ -87,7 +87,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/login_input_error_user"
+            android:text="@string/change_pwd_page_old_new_same"
             android:textColor="@color/login_input_error"
             android:textSize="11sp" />
 
@@ -161,9 +161,9 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/setting_page_quit_bg"
+        android:background="@drawable/change_pwd_reset_selector"
         android:text="@string/config_button_reset"
-        android:textColor="@android:color/white"
+        android:textColor="#6999E5"
         android:textSize="14sp" />
 
 </LinearLayout>

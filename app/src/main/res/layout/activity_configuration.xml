@@ -67,7 +67,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
-                android:text="0G"
                 android:textColor="#141416"
                 android:textSize="12sp" />
 
@@ -79,7 +78,6 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="17dp"
                 android:layout_marginRight="17dp"
-                android:max="100"
                 android:thumb="@drawable/seekbar_thumb" />
 
             <TextView
@@ -88,7 +86,6 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_marginLeft="17dp"
-                android:text="0G"
                 android:textColor="#141416"
                 android:textSize="12sp" />
 
@@ -99,7 +96,6 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="17dp"
-                android:text="100G"
                 android:textColor="#141416"
                 android:textSize="12sp" />
         </RelativeLayout>
@@ -156,7 +152,9 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/configuration_item_bg">
+            android:background="@drawable/configuration_item_bg"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
 
             <TextView
                 android:id="@+id/cur_time"
@@ -173,7 +171,6 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="17dp"
                 android:layout_marginRight="17dp"
-                android:max="30"
                 android:thumb="@drawable/seekbar_thumb" />
 
             <TextView
