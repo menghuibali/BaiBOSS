@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BaiBoss.iml" filepath="$PROJECT_DIR$/BaiBoss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaiBOSS.iml" filepath="$PROJECT_DIR$/BaiBOSS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" filepath="$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" />
     </modules>
   </component>
 </project>
