@@ -85,7 +85,7 @@
 
     <style name="Loading_Progress" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
-        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
 </resources>
