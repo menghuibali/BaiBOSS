@@ -87,4 +87,8 @@
         <item name="android:textColor">@color/bill_page_list_header</item>
     </style>
 
+    <style name="Loading_Progress" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>

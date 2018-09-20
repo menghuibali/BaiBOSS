@@ -32,10 +32,8 @@
             android:checked="false"
             android:showText="false"
             android:switchMinWidth="57dp"
-            android:textOff=""
-            android:textOn=""
             android:thumb="@drawable/switch_thumb"
-            android:thumbTextPadding="0dp"
+            android:thumbTextPadding="3dp"
             android:track="@drawable/switch_track" />
 
     </RelativeLayout>
@@ -126,10 +124,8 @@
             android:checked="false"
             android:showText="false"
             android:switchMinWidth="57dp"
-            android:textOff=""
-            android:textOn=""
             android:thumb="@drawable/switch_thumb"
-            android:thumbTextPadding="0dp"
+            android:thumbTextPadding="3dp"
             android:track="@drawable/switch_track" />
 
     </RelativeLayout>
@@ -219,10 +215,8 @@
             android:checked="false"
             android:showText="false"
             android:switchMinWidth="57dp"
-            android:textOff=""
-            android:textOn=""
             android:thumb="@drawable/switch_thumb"
-            android:thumbTextPadding="0dp"
+            android:thumbTextPadding="3dp"
             android:track="@drawable/switch_track" />
 
     </RelativeLayout>

@@ -23,7 +23,7 @@
     <application
         android:name=".app.App"
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -38,6 +38,7 @@
         <!-- umeng推送需要配置的 -->
         <activity
             android:name=".ui.activity.LoginActivity"
+            android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
@@ -49,7 +50,6 @@
 
         <activity
             android:name=".ui.activity.HomeActivity"
-            android:launchMode="singleTask"
             android:screenOrientation="portrait"></activity>
 
         <activity

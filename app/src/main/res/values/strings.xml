@@ -113,7 +113,7 @@
         <item>Year</item>
     </string-array>
 
-    <string name="prompt_no_network">当前无网络，请检查网络连接</string>
+    <string name="prompt_no_network">No network</string>
     <string name="prompt_password_new_and_old_cant_same">新密码不能与旧密码相同</string>
     <string name="prompt_password_not_consistent">两次输入的密码不一致</string>
     <string name="dialog_title_update_password">修改密码</string>
