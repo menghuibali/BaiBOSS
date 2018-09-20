@@ -1,7 +1,6 @@
 <resources>
 
-    <style name="AppTheme"
-           parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/login_hint</item>
@@ -62,14 +61,12 @@
         <item name="android:textColor">@color/mine_page_info_textview</item>
     </style>
 
-    <style name="mine_page_info_detail_textview"
-           parent="mine_page_info_textview">
+    <style name="mine_page_info_detail_textview" parent="mine_page_info_textview">
         <item name="android:textColor">@color/mine_page_info_detail_textview</item>
         <item name="android:layout_marginTop">5dp</item>
     </style>
 
-    <style name="charge_page_detail_textview"
-           parent="mine_page_info_textview">
+    <style name="charge_page_detail_textview" parent="mine_page_info_textview">
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:textColor">@color/charge_page_detail_title_textview</item>
     </style>
@@ -82,13 +79,13 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="bill_page_list_header"
-           parent="mine_page_info_textview">
+    <style name="bill_page_list_header" parent="mine_page_info_textview">
         <item name="android:textColor">@color/bill_page_list_header</item>
     </style>
 
-    <style name="Loading_Progress" parent="@android:style/Theme.Holo.Light.Dialog">
-        <item name="android:windowNoTitle">true</item>
+    <style name="Loading_Progress" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
     </style>
 
 </resources>

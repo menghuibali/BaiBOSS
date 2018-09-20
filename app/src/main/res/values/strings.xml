@@ -173,5 +173,6 @@
     <string name="pulltorefresh_release_to_more">"松开加载更多"</string>
     <string name="pulltorefresh_downloading">"正在加载"</string>
     <string name="no_data">"No Datas"</string>
+    <string name="loading">"Loading..."</string>
     <!-- ################################## end   ##################################  -->
 </resources>
