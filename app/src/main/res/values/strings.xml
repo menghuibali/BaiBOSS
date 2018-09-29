@@ -154,7 +154,7 @@
         ]]></Data>
     </string>
 
-    <string name="wave_view_text_balance">"Residue"</string>
+    <string name="wave_view_text_balance">"Residue %1$s"</string>
     <string name="wave_view_text_balance_flow">"Balance Flow"</string>
     <string name="wave_view_text_unlimit">Unlimit</string>
     <string name="service_plan">Service Plan</string>
@@ -162,6 +162,7 @@
     <string name="flow_statistics">Flow Usage</string>
     <string name="expiry_date">"Expiry Date %1$s"</string>
     <string name="day">"Day"</string>
+    <string name="days">"Days"</string>
     <string name="service_fragment_total_flow">"Total Flow %1$s"</string>
     <string name="service_fragment_unuse_flow">"Balance Flow %1$s"</string>
     <string name="network_error">"Network Error"</string>
