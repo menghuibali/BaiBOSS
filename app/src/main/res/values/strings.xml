@@ -63,7 +63,7 @@
     <string name="bill_page_tab_invoice_record">"发票记录"</string>
     <string name="bill_page_tab_charge_record">"充值记录"</string>
     <string name="bill_page_list_header_invoice_number">"Invoice Number"</string>
-    <string name="bill_page_list_header_state_amount">"Status"</string>
+    <string name="bill_page_list_header_state_amount">"Status/Amount"</string>
     <string name="bill_page_list_header_create_time">"Create Date"</string>
     <string name="bill_page_list_header_serial_number">"SN号码"</string>
     <string name="bill_page_list_header_charge_amount">"充值金额"</string>
