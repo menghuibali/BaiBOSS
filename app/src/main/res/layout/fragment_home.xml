@@ -44,159 +44,165 @@
 
     </RelativeLayout>
 
-    <LinearLayout
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/root"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#F5F7FA"
-        android:orientation="vertical"
-        android:paddingTop="44dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.baicells.baiboss.ui.widget.ExtraWaveView
-                android:layout_width="215dp"
-                android:layout_height="215dp"
-                android:layout_centerHorizontal="true" />
-
-            <com.baicells.baiboss.ui.widget.WaveView
-                android:id="@+id/waveview"
-                android:layout_width="144dp"
-                android:layout_height="144dp"
-                android:layout_centerInParent="true"
-                app:padding_color="@color/padding_color"
-                app:wave_color="@color/wave_color"
-                app:wave_high="@dimen/wave_high"
-                app:wave_padding="@dimen/wave_padding"
-                app:wave_text_color="@android:color/white"
-                app:wave_text_size="@dimen/wave_text_size"
-                app:wave_width="@dimen/wave_width" />
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/validity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="9dp"
-            android:textColor="#141416"
-            android:textSize="14sp" />
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="310dp"
-            android:layout_height="140dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="36dp"
-            android:background="@drawable/main_fragment_balance_bg"
-            android:orientation="horizontal"
-            android:paddingBottom="46dp"
-            android:paddingTop="40dp">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F5F7FA"
+            android:orientation="vertical"
+            android:paddingTop="44dp">
 
             <RelativeLayout
-                android:layout_width="106dp"
-                android:layout_height="match_parent">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true">
+                <com.baicells.baiboss.ui.widget.ExtraWaveView
+                    android:layout_width="215dp"
+                    android:layout_height="215dp"
+                    android:layout_centerHorizontal="true" />
 
-                    <TextView
-                        android:id="@+id/all_flow"
+                <com.baicells.baiboss.ui.widget.WaveView
+                    android:id="@+id/waveview"
+                    android:layout_width="144dp"
+                    android:layout_height="144dp"
+                    android:layout_centerInParent="true"
+                    app:padding_color="@color/padding_color"
+                    app:wave_color="@color/wave_color"
+                    app:wave_high="@dimen/wave_high"
+                    app:wave_padding="@dimen/wave_padding"
+                    app:wave_text_color="@android:color/white"
+                    app:wave_text_size="@dimen/wave_text_size"
+                    app:wave_width="@dimen/wave_width" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/validity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="9dp"
+                android:textColor="#141416"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/main_fragment_balance_bg"
+                android:orientation="horizontal"
+                android:paddingBottom="46dp"
+                android:paddingTop="40dp">
+
+                <RelativeLayout
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+
+                        <TextView
+                            android:id="@+id/all_flow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1DA3FC"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/flow_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1DA3FC"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/all_flow"
+                        android:textColor="#141416"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:background="#E2E4E6" />
+
+                <RelativeLayout
+                    android:layout_width="98dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+
+                        <TextView
+                            android:id="@+id/balance_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1DA3FC"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/time_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#1DA3FC"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/balance_time"
+                        android:textColor="#141416"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:background="#E2E4E6" />
+
+                <RelativeLayout
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
                         android:textColor="#1DA3FC"
                         android:textSize="18sp" />
 
                     <TextView
-                        android:id="@+id/flow_unit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#1DA3FC"
-                        android:textSize="10sp" />
-                </LinearLayout>
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/account"
+                        android:textColor="#141416"
+                        android:textSize="12sp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/all_flow"
-                    android:textColor="#141416"
-                    android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
 
-            </RelativeLayout>
-
-            <View
-                android:layout_width="1dp"
-                android:layout_height="25dp"
-                android:background="#E2E4E6" />
-
-            <RelativeLayout
-                android:layout_width="98dp"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true">
-
-                    <TextView
-                        android:id="@+id/balance_time"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#1DA3FC"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:id="@+id/time_unit"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#1DA3FC"
-                        android:textSize="10sp" />
-                </LinearLayout>
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/balance_time"
-                    android:textColor="#141416"
-                    android:textSize="12sp" />
-
-            </RelativeLayout>
-
-            <View
-                android:layout_width="1dp"
-                android:layout_height="25dp"
-                android:background="#E2E4E6" />
-
-            <RelativeLayout
-                android:layout_width="106dp"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/account"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:textColor="#1DA3FC"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/account"
-                    android:textColor="#141416"
-                    android:textSize="12sp" />
-
-            </RelativeLayout>
         </LinearLayout>
-
-    </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
 </LinearLayout>

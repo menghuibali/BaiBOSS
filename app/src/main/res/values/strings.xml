@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BaiBoss</string>
+    <string name="app_name">BaiBOSS</string>
     <string name="login_input_username">(User)IMSI</string>
     <string name="login_input_error_pwd">Password is failure</string>
     <string name="login_input_error_code">Verification Code error</string>
