@@ -177,5 +177,8 @@
     <string name="loading">"Loading..."</string>
     <string name="switch_on">"on"</string>
     <string name="switch_off">"off"</string>
+
+    <string name="listfooterview_normal">查看更多</string>
+    <string name="listfooterview_ready">松开载入更多</string>
     <!-- ################################## end   ##################################  -->
 </resources>
