@@ -36,6 +36,7 @@
                 android:drawableStart="@drawable/icon_login_name"
                 android:hint="@string/login_input_username"
                 android:inputType="textVisiblePassword"
+                android:maxLength="15"
                 android:paddingBottom="12dp" />
         </android.support.design.widget.TextInputLayout>
 
