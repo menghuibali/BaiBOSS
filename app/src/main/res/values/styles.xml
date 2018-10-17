@@ -31,29 +31,6 @@
         <item name="android:drawablePadding">0dp</item>
     </style>
 
-    <style name="home_page_item_text">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:textColor">@color/home_page_item_text</item>
-    </style>
-
-    <style name="home_page_item_imageview">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">16dp</item>
-    </style>
-
-    <style name="home_page_item_layout">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:background">@drawable/home_page_item_layout_bg</item>
-        <item name="android:orientation">vertical</item>
-    </style>
-
     <style name="mine_page_info_textview">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -61,22 +38,9 @@
         <item name="android:textColor">@color/mine_page_info_textview</item>
     </style>
 
-    <style name="mine_page_info_detail_textview" parent="mine_page_info_textview">
-        <item name="android:textColor">@color/mine_page_info_detail_textview</item>
-        <item name="android:layout_marginTop">5dp</item>
-    </style>
-
     <style name="charge_page_detail_textview" parent="mine_page_info_textview">
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:textColor">@color/charge_page_detail_title_textview</item>
-    </style>
-
-    <style name="change_pwd_page_btn">
-        <item name="android:layout_width">180dp</item>
-        <item name="android:layout_height">40dp</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:gravity">center</item>
     </style>
 
     <style name="bill_page_list_header" parent="mine_page_info_textview">

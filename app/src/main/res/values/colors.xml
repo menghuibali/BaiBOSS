@@ -5,11 +5,7 @@
     <color name="home_actionbar_bg">#093663</color>
     <color name="login_line_focus">#FF1DA3FC</color>
     <color name="login_input_error">#FFD50000</color>
-    <color name="login_button_bg">#FFE9FBFF</color>
-    <color name="login_button_border">#FFCBF3FB</color>
     <color name="login_line_normal">#99b8cbf3</color>
-    <color name="home_feedback_button_enable">#FFB0CBDD</color>
-    <color name="login_button_shadow">#3F82C1EA</color>
     <color name="login_focus">#FF84B0F7</color>
     <color name="login_text_color_hint">#DEA8CCE4</color>
     <color name="login_text_color_hint_float">#FFE9E0E0</color>
@@ -19,19 +15,9 @@
     <color name="padding_color">#ffCEFAFE</color>
     <color name="main_tab_text_selected">#FF1DA3FC</color>
     <color name="main_tab_text_normal">#FF5A7B92</color>
-    <color name="home_page_flow_detail_title">#FF1DA3FC</color>
-    <color name="home_page_flow_validity">#FF8E8E8E</color>
-    <color name="home_page_item_text">#FF141416</color>
-    <color name="mine_page_seperate_line">#FF2A5178</color>
     <color name="mine_page_info_textview">#FFF4F4F4</color>
-    <color name="mine_page_info_detail_textview">#FFFFFFFF</color>
     <color name="charge_page_detail_title_textview">#FF141416</color>
     <color name="bill_page_status_enable">#4CAF50</color>
     <color name="bill_page_status_disable">#D50000</color>
-    <color name="bill_page_tab_text_select">#DE148BE6</color>
-    <color name="bill_page_tab_text_unselect">#DEA8CEE6</color>
     <color name="bill_page_list_header">#FF8E8E8E</color>
-    <color name="service_page_download_color">#FF4CAF50</color>
-    <color name="service_page_upload_color">#FF0099FF</color>
-    <color name="service_page_chart_axis_color">#FFBDBDBD</color>
 </resources>
