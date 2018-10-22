@@ -39,7 +39,7 @@
     <string name="change_pwd_result_page_countdownjump">"%1$ds后将自动跳转到登录界面"</string>
     <string name="bill_page_title">"Invoice"</string>
     <string name="bill_page_list_header_invoice_number">"Invoice Number"</string>
-    <string name="bill_page_list_header_state_amount">"Status/Amount"</string>
+    <string name="bill_page_list_header_state_amount">"Paid"</string>
     <string name="bill_page_list_header_create_time">"Create Date"</string>
     <string name="bill_page_list_child_invoice_num">"发票号码 : %1$s"</string>
     <string name="bill_page_list_child_invoice_total">"票据总额 : %1$s"</string>
